@@ -25,7 +25,7 @@ TagManager:
   - 
   - 
   - 
-  - 
+  - Temp
   - 
   - 
   - 
@@ -38,6 +38,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: bg
+    uniqueID: 3469009207
+    locked: 0
   - name: Default
     uniqueID: 0
     locked: 0
