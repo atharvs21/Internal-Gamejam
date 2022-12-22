@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Game(Integration).unity
     guid: d9ab096a72a109e49b71a3bf47654f4a
+  - enabled: 1
+    path: Assets/Scenes/Instructions.unity
+    guid: 9724e6cf95d094748b3b396e09295e37
+  - enabled: 1
+    path: Assets/Scenes/Player1 Win.unity
+    guid: 516da8240086c78468b3c60802132622
+  - enabled: 1
+    path: Assets/Scenes/Player2 Win.unity
+    guid: f068a016c3d0dea478b1df212e4ff6b9
   m_configObjects: {}
