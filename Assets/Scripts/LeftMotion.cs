@@ -18,12 +18,33 @@ public class LeftMotion : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey("w") || Input.GetKey("a") || Input.GetKey("s") || Input.GetKey("d"))
+        if (Input.GetKey("w") )
         {
-            playerOnePosition = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"),0);
+            playerOnePosition = new Vector3(0,1,0);
            // playerOnePosition = transform.TransformDirection(playerOnePosition);
             //playerOnePosition *= speed;
             playerOnePosition= playerOnePosition.normalized;
+        }
+        if ( Input.GetKey("a") )
+        {
+            playerOnePosition = new Vector3(-1,0, 0);
+            // playerOnePosition = transform.TransformDirection(playerOnePosition);
+            //playerOnePosition *= speed;
+            playerOnePosition = playerOnePosition.normalized;
+        }
+        if ( Input.GetKey("s"))
+        {
+            playerOnePosition = new Vector3(0,-1, 0);
+            // playerOnePosition = transform.TransformDirection(playerOnePosition);
+            //playerOnePosition *= speed;
+            playerOnePosition = playerOnePosition.normalized;
+        }
+        if ( Input.GetKey("d"))
+        {
+            playerOnePosition = new Vector3(1,0, 0);
+            // playerOnePosition = transform.TransformDirection(playerOnePosition);
+            //playerOnePosition *= speed;
+            playerOnePosition = playerOnePosition.normalized;
         }
 
         playerOne.velocity = (speed*playerOnePosition * Time.deltaTime);
