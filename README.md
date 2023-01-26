@@ -12,7 +12,7 @@ Game name - Puzzle Runner
 -Realistic physics simulation for ball movement
 -Immersive and engaging 2D environments
 
-Game published on itch.io at - https://ojasbrid.itch.io/puzzle-runner
+Game published on itch.io at this - https://ojasbrid.itch.io/puzzle-runner
 
 Progammer - Atharv Soni
 Artist - Madhur Bansal
